@@ -4,12 +4,12 @@ from sklearn.model_selection import train_test_split
 import os
 
 class SafeGuardTransactionService:
-        """
-        Service for fraud detection and report generation.
+    """
+    Service for fraud detection and report generation.
 
-        Author: BERRAHAL Malek
-        Date: 05/11/2024
-        """
+    Author: BERRAHAL Malek
+    Date: 05/11/2024
+    """
     def __init__(self, data_loader, model_trainer, config):
         self.data_loader = data_loader
         self.model_trainer = model_trainer
