@@ -1,0 +1,33 @@
+database:
+  type: postgresql  # or 'mysql'
+  host: your-database-host
+  port: 5432        # or 3306 for MySQL
+  name: your-database-name
+  user: your-username
+  password: your-password
+  schema: your-database-schema
+
+table:
+  name: transactions  # Name of the table containing transaction data
+
+fields:
+  transaction_id: transaction_id
+  user_id: user_id
+  amount: amount
+  merchant: merchant
+  location: location
+  transaction_time: transaction_time
+  user_frequency: user_frequency
+  average_user_amount: average_user_amount
+  last_transaction_location: last_transaction_location
+  user_country: user_country
+  transaction_country: transaction_country
+  fraudulent: fraudulent
+
+fraud_detection:
+  report_format: csv      # 'csv' or 'pdf'
+  report_output_path: reports/  # Directory where reports will be saved
+
+maintainer:
+  name: BERRAHAL Malek
+  email: your.email@example.com

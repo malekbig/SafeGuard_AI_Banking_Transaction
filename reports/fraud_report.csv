@@ -1,0 +1,2 @@
+transaction_id,user_id,amount,merchant,location,transaction_time,user_frequency,average_user_amount,last_transaction_location,user_country,transaction_country,fraudulent,transaction_hour,transaction_day,foreign_transaction,deviation_from_avg,recent_transaction_count
+1,1,150.0,Amazon,New York,2023-10-01 10:00:00,5,120.0,New York,USA,USA,False,10,6,False,0.25,1
